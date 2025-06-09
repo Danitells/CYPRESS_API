@@ -3,7 +3,7 @@ version: 2.1
 executors:
   cypress-executor:
     docker:
-      - image: cypress/browsers:node18.12.0-chrome107-ffmpeg
+      - image: cypress/included:13.7.3
     working_directory: ~/project
 
 jobs:
